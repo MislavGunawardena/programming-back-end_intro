@@ -1,0 +1,3 @@
+In the first case, 3 is printed.
+In the second case, there will be an error. x is defined within the times loop. It's scope is confined to between the "do" and
+"end" of that loop. Therefore, it cannot be referenced from outside the times loop.
