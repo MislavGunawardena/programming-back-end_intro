@@ -1,0 +1,2 @@
+It means that the program is trying to reference a method or variable called shoes that hasn't been declared yet.
+Alternately, it can mean that the method or variable called shoes is being referenced from a place beyond it's scope.
