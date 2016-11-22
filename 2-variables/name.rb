@@ -1,8 +1,11 @@
 
-puts "Please enter your name : "
-name = gets.chomp
-puts "Hello #{name}!, Hope you are having a wonderful day!"
+puts "Please enter your first name : "
+first_name = gets.chomp
+puts "Please enter your last name : "
+last_name = gets.chomp
+full_name = first_name + " " + last_name
+puts "Hello #{full_name}!, Hope you are having a wonderful day!"
 
 10.times do
-    puts name
+    puts full_name
 end
