@@ -1,0 +1,2 @@
+When the calculate_product method is called, it has to be passed 2 arguments. The program in question only passes 1 
+argument, causing the error.
