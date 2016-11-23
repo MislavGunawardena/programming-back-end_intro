@@ -1,0 +1,5 @@
+
+Even though visually it looks as though the function definition is complete, since there is an 'end' keyword aligned with the def keyword,
+this is not the case. Logically, that 'end' keyword corresponds to the if statement. The error is caused by the fact that the function
+definition is incomplete because it doesn't end with the 'end' keyword.
+You can fix it by adding another 'end' keyword right below the already existing 'end' keyword.
