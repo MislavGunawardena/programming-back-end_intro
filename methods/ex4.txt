@@ -1,0 +1,1 @@
+It doesn't  print out anything because the scream method returns before the print statement within it is executed.
