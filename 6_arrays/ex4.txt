@@ -1,0 +1,6 @@
+
+1) 3
+
+2) There will be a "NoMethodError"
+
+3) 8
