@@ -1,0 +1,4 @@
+Array indices are always integers. In the second line, a string value (instead of an integer) is specified as the index of the array element
+that needs to be altered. The error message states that it is possible to implicitly convert this string value to an integer value.
+The problem can be fixed by replacing the second line with the following code:
+names[3] = 'jody'
