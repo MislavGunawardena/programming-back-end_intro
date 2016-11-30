@@ -1,0 +1,2 @@
+
+For my_hash, the key is the symbol :x. For my_hash2, the key is the string "hi there".
