@@ -17,14 +17,15 @@ talk_to_someone.call("Sam")
 
 #procs can be passed to methods as arguments.
 def transform(n,proc)
-  proc(n)
-  puts n
+  proc.call(n)
 end
-n = 3
+n = 5
+n = n.to_s
 proc1 = Proc.new do |n|
-  n = n*n
+  m = n.to_i
+  m = m*m
+  n.replace(m.to_s)
 end
-#transform(n,proc1)
-
-proc1
+transform(n,proc1)
+puts n.to_i
 
