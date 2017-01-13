@@ -1,0 +1,3 @@
+
+The main difference is that items contained in a hash are labeled while items contained in an array are not labled. A hash contains
+key-value pairs. The value has to be referenced with the key.
